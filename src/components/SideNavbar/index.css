@@ -1,0 +1,47 @@
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    width: 45px;
+    height: 97vh;
+    border-right: solid 1px rgb(13, 13, 58);
+ 
+}
+.Sidebar-Logo-heading-container{
+    font-size: 15px;
+}
+.Top-log-bar{
+
+    background-color: rgb(13, 13, 58);
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+.icon{
+    width: 40px;
+    height: 20px;
+}
+.midel-log-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+.Bottom-log-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collapse{
+    background-color: slateblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
